@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+.lesson h1 {
+  color: brown;
+}
+
+.lesson .p {
+  color: blue;
+}
+img {
+  height: 300px;
+  width: 400px;
+}
+
+li {
+  color: blueviolet;
+}
+
+li.capital {
+  color: green;
+}
+
+img.style {
+  height: 500px;
+}
+
+.kyiv {
+  color: aqua;
+}

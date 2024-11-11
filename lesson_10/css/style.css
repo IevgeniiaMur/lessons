@@ -1,0 +1,217 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("fonts.css");*/
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700");
+body {
+  font-family: "Manrope", sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.first-section {
+  margin-bottom: 50px;
+}
+
+.first-section__container {
+  padding-block: 15px;
+  background-color: #28293e;
+}
+
+.first-section__content {
+  height: 570px;
+  width: 570px;
+  position: relative;
+  margin-inline: auto;
+}
+
+.first-section__content::before {
+  content: "";
+  position: absolute;
+  top: 17.5439%;
+  left: 17.5439%;
+  width: 64.9123%;
+  border-radius: 50%;
+  background-color: #32334c;
+}
+
+.first-section__images {
+  position: relative;
+  max-width: 43.157895%;
+  height: 53.684211%;
+}
+
+.first-section__fimages--laptop {
+  top: 0;
+  left: 0;
+}
+
+.first-section__images--woman {
+  bottom: 100px;
+  left: 56.842105%;
+}
+
+.first-section__images::after,
+.first-section__images::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+}
+
+.first-section__images::before {
+  height: 59.477124%;
+}
+
+.first-section__images::before {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.first-section__images::after {
+  top: 0.653595%;
+  left: 0;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.first-section__images--laptop::before,
+.first-section__images--laptop::after {
+  background-color: #b550f8;
+}
+
+.first-section__images--woman::before,
+.first-section__images--woman::after {
+  background-color: #f7cc47;
+}
+
+.first-section__images > img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.first-section__images--laptop > img {
+  top: 7.843137%;
+  left: 8.536585%;
+}
+
+.first-section__images--woman > img {
+  bottom: 0;
+  left: 0;
+}
+
+.first-section__starts {
+  position: absolute;
+  top: 7.017544%;
+  left: 53.333333%;
+  width: 19.649123%;
+  background-color: #ef6d58;
+  border-radius: 50%;
+  padding-block: 4.912281%;
+  padding-inline: 6.140351%;
+}
+
+.first-section__starts > img {
+  width: 100%;
+}
+
+.first-section__element {
+  position: absolute;
+}
+
+.first-section__element > img {
+  width: 100%;
+}
+
+.first-section__element--block {
+  bottom: 10.350877%;
+  left: 9.824561%;
+  width: 37.54386%;
+}
+
+.first-section__element--cloud {
+  top: 14.035088%;
+  right: 0;
+  width: 19.649123%;
+}
+
+.first-section__element--wave-arrow {
+  bottom: 32.982456%;
+  left: 0;
+  width: 24.912281%;
+}
+
+.first-section__element--arrow {
+  bottom: 3.859649%;
+  left: 55.087719%;
+
+  width: 16.491228%;
+}
+
+.second-section {
+  font-family: Epilogue, sans-serif;
+  margin-bottom: 50px;
+}
+
+.second-section__container {
+  max-width: 478px;
+}
+
+.item {
+  position: relative;
+}
+
+.item > img {
+  width: 100%;
+  height: auto;
+}
+
+.item__content {
+  position: absolute;
+  bottom: 8.854167%;
+  left: 10.714286%;
+
+  width: 23.214286%;
+}
+
+.item__label {
+  width: 80.769231%;
+  min-height: 38px;
+  border-radius: 19px;
+  background: #fff;
+
+  text-transform: capitalize;
+  text-align: center;
+  color: #391400;
+  line-height: 250%;
+
+  padding-top: 0.868056%;
+  padding-inline: 3.348214%;
+
+  margin-bottom: 24px;
+}
+
+.item__title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.footer {
+  min-height: 60px;
+  background-color: #4d817c;
+  color: #ffffff;
+  font-size: 24px;
+  padding-top: 15px;
+}

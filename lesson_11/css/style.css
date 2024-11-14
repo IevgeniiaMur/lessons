@@ -1,0 +1,145 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("fonts.css");*/
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700");
+body {
+  font-family: "Manrope", sans-serif;
+  color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: url("../img/background-palm.jpg") center / cover no-repeat;
+}
+.header {
+  margin-top: 20px;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.car {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 400px;
+  width: 400px;
+  height: 0;
+  z-index: 0;
+}
+
+.car-frame {
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+  width: 250px;
+  height: 90px;
+  background-color: aquamarine;
+  border-radius: 40px 40px 2px 2px;
+}
+
+.car-upper-body {
+  position: absolute;
+  bottom: 240px;
+  right: 150px;
+  width: 150px;
+  height: 60px;
+  background-color: aqua;
+  border-radius: 30px 30px 0 0;
+}
+
+.wheel {
+  position: absolute;
+  bottom: 120px;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.left-wheel {
+  right: 270px;
+}
+
+.right-wheel {
+  right: 120px;
+}
+
+.inner-wheel {
+  position: absolute;
+  bottom: 130px;
+  width: 40px;
+  height: 40px;
+  background-color: #4d817c;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.left-inner-wheel {
+  right: 280px;
+}
+.right-inner-wheel {
+  right: 130px;
+}
+.window {
+  position: absolute;
+  bottom: 250px;
+  width: 60px;
+  height: 40px;
+  background-color: #ffffff;
+}
+.left-window {
+  right: 230px;
+  border-radius: 20px 2px 2px 2px;
+}
+
+.right-window {
+  right: 160px;
+  border-radius: 2px 20px 2px 2px;
+}
+
+.headlamp {
+  position: absolute;
+  bottom: 200px;
+  right: 340px;
+  width: 6px;
+  height: 27px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.light {
+  position: absolute;
+  bottom: 200px;
+  right: 330px;
+  width: 60px;
+  height: 30px;
+  background: linear-gradient(-90deg, #ffeb3b, #fff59d);
+  border-radius: 0% 100% 100% 0%;
+  z-index: -1;
+}
+
+.car-shadow {
+  position: absolute;
+  bottom: 110px;
+  right: 110px;
+  width: 230px;
+  height: 20px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  z-index: -1;
+}
+/* .footer {
+  min-height: 60px;
+  background-color: #4d817c;
+  color: #ffffff;
+  font-size: 24px;
+  padding-top: 15px;
+} */
